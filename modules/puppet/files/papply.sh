@@ -1,2 +1,3 @@
 #!/bin/sh
-sudo puppet apply /home/puppet/manifests/site.pp --modulepath=/home/puppet/modules/ $*
+sudo puppet apply /home/puppet/cookbook/manifests/site.pp --modulepath=/home/puppet/cookbook/modules/ $*
+
